@@ -17,7 +17,7 @@ const App = () => {
       <br/>
 
       <label htmlFor='num-input'>Number input</label>
-      <input id="num-input"  type={'number'} onChange ={(e)=>handleInput(e) />
+      <input id="num-input"  type={'number'} onChange ={(e)=>handleInput(e)}/>
       <br/>
     </div>
   )
